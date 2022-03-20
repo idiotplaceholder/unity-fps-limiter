@@ -9,6 +9,7 @@ public class fpslimiter : MonoBehaviour
 
     void Update()
     {
+        //If vSync is enabled, the frame limiter won't work
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = customframerate;
     }
