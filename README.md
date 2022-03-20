@@ -1,1 +1,1 @@
-# unity-fps-limiter
+# Unity FPS Limiter Script
